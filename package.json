@@ -1,0 +1,17 @@
+{
+  "name": "node-aws-delete-vpc",
+  "version": "1.0.0",
+  "description": "Node Utility Script to list resources in an AWS VPC and delete all resources in it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Loh Yin Kang",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.442.0",
+    "bluebird": "^3.5.4",
+    "commander": "^2.20.0",
+    "lodash": "^4.17.11"
+  }
+}
