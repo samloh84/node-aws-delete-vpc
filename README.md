@@ -14,10 +14,15 @@ AWS Delete VPC is a Node utility script to list all resources in an AWS VPC, del
 
 ## Usage
 
-1. Run the following command to generate the Terraform scripts in the `output` directory.
+1. Run the following command to list resources in the specified VPC IDs
 ```bash
-node index.js vpc_id1 vpc_id2 vpc_id3
+node index.js list vpc_id1 vpc_id2 vpc_id3
+```
+2. Run the following command to delete resources in the specified VPC IDs
+```bash
+node index.js delete vpc_id1 vpc_id2 vpc_id3
 ```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
