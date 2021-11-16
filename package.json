@@ -9,7 +9,7 @@
   "author": "Samuel Loh Yin Kang",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.442.0",
+    "aws-sdk": "^2.814.0",
     "bluebird": "^3.5.4",
     "commander": "^2.20.0",
     "lodash": "^4.17.11"
